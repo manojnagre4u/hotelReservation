@@ -17,7 +17,7 @@ public class HotelRoomReservation {
         try {
             HotelRoomReservation hotelRoomReservation = new HotelRoomReservation();
             String output = hotelRoomReservation.getCheapest(args);
-            System.out.println("Output: ");
+            System.out.println("Output: " + output);
         } catch (ParseException e) {
             e.printStackTrace();
         }
