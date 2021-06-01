@@ -39,8 +39,6 @@ public class HotelRoomReservation {
         int day1 = date1Format.getDay();
         int day2 = date2Format.getDay();
         int day3 = date3Format.getDay();
-        System.out.println("day1 " + day1);
-
 
         List<Hotel> load = load();
         List<HotelCal> hotelCalList = new ArrayList<>();
